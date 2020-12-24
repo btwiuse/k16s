@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/kube-state-metrics/v2/pkg/metric"
+	"github.com/btwiuse/k16s/v2/pkg/metric"
 )
 
 // FamilyGenerator provides everything needed to generate a metric family with a

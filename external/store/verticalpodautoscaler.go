@@ -28,9 +28,9 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"k8s.io/kube-state-metrics/v2/pkg/constant"
-	"k8s.io/kube-state-metrics/v2/pkg/metric"
-	generator "k8s.io/kube-state-metrics/v2/pkg/metric_generator"
+	"github.com/btwiuse/k16s/v2/pkg/constant"
+	"github.com/btwiuse/k16s/v2/pkg/metric"
+	generator "github.com/btwiuse/k16s/v2/pkg/metric_generator"
 )
 
 var (

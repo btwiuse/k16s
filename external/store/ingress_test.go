@@ -22,7 +22,7 @@ import (
 	networkingv1 "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	generator "k8s.io/kube-state-metrics/v2/pkg/metric_generator"
+	generator "github.com/btwiuse/k16s/v2/pkg/metric_generator"
 )
 
 func TestIngressStore(t *testing.T) {

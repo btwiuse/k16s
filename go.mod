@@ -1,4 +1,4 @@
-module k8s.io/kube-state-metrics/v2
+module github.com/btwiuse/k16s/v2
 
 require (
 	github.com/Azure/go-autorest/autorest v0.10.0 // indirect

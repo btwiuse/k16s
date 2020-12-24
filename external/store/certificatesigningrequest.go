@@ -19,8 +19,8 @@ package store
 import (
 	"context"
 
-	"k8s.io/kube-state-metrics/v2/pkg/metric"
-	generator "k8s.io/kube-state-metrics/v2/pkg/metric_generator"
+	"github.com/btwiuse/k16s/v2/pkg/metric"
+	generator "github.com/btwiuse/k16s/v2/pkg/metric_generator"
 
 	certv1 "k8s.io/api/certificates/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

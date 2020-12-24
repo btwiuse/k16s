@@ -33,9 +33,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog/v2"
 
-	"k8s.io/kube-state-metrics/v2/external/store"
-	metricsstore "k8s.io/kube-state-metrics/v2/pkg/metrics_store"
-	"k8s.io/kube-state-metrics/v2/pkg/options"
+	"github.com/btwiuse/k16s/v2/external/store"
+	metricsstore "github.com/btwiuse/k16s/v2/pkg/metrics_store"
+	"github.com/btwiuse/k16s/v2/pkg/options"
 )
 
 // MetricsHandler is a http.Handler that exposes the main kube-state-metrics

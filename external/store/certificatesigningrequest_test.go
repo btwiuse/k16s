@@ -23,7 +23,7 @@ import (
 	certv1 "k8s.io/api/certificates/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	generator "k8s.io/kube-state-metrics/v2/pkg/metric_generator"
+	generator "github.com/btwiuse/k16s/v2/pkg/metric_generator"
 )
 
 func TestCsrStore(t *testing.T) {
