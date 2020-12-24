@@ -24,7 +24,7 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	internalstore "k8s.io/kube-state-metrics/v2/internal/store"
+	internalstore "k8s.io/kube-state-metrics/v2/external/store"
 	ksmtypes "k8s.io/kube-state-metrics/v2/pkg/builder/types"
 	"k8s.io/kube-state-metrics/v2/pkg/options"
 )
